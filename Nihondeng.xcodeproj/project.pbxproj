@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F3B99C91612F6D60055315E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3B99C81612F6D60055315E /* UIKit.framework */; };
+		0F3B99CB1612F6D60055315E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3B99CA1612F6D60055315E /* Foundation.framework */; };
+		0F3B99CD1612F6D60055315E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3B99CC1612F6D60055315E /* CoreGraphics.framework */; };
+		0F3B99D31612F6D60055315E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F3B99D11612F6D60055315E /* InfoPlist.strings */; };
+		0F3B99D51612F6D60055315E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B99D41612F6D60055315E /* main.m */; };
+		0F3B99D91612F6D60055315E /* lianxiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B99D81612F6D60055315E /* lianxiAppDelegate.m */; };
+		0F3B99DC1612F6D60055315E /* lianxiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B99DB1612F6D60055315E /* lianxiViewController.m */; };
+		0F3B99DF1612F6D60055315E /* lianxiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3B99DD1612F6D60055315E /* lianxiViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F3B99C41612F6D60055315E /* Nihondeng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nihondeng.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3B99C81612F6D60055315E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F3B99CA1612F6D60055315E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F3B99CC1612F6D60055315E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F3B99D01612F6D60055315E /* Nihondeng-Info.plist */ = {isa = PBXFileReference; path = "Nihondeng-Info.plist"; sourceTree = "<group>"; };
+		0F3B99D21612F6D60055315E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F3B99D41612F6D60055315E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F3B99D61612F6D60055315E /* Nihondeng-Prefix.pch */ = {isa = PBXFileReference; path = "Nihondeng-Prefix.pch"; sourceTree = "<group>"; };
+		0F3B99D71612F6D60055315E /* lianxiAppDelegate.h */ = {isa = PBXFileReference; path = lianxiAppDelegate.h; sourceTree = "<group>"; };
+		0F3B99D81612F6D60055315E /* lianxiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lianxiAppDelegate.m; sourceTree = "<group>"; };
+		0F3B99DA1612F6D60055315E /* lianxiViewController.h */ = {isa = PBXFileReference; path = lianxiViewController.h; sourceTree = "<group>"; };
+		0F3B99DB1612F6D60055315E /* lianxiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lianxiViewController.m; sourceTree = "<group>"; };
+		0F3B99DE1612F6D60055315E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/lianxiViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F3B99C11612F6D60055315E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3B99C91612F6D60055315E /* UIKit.framework in Frameworks */,
+				0F3B99CB1612F6D60055315E /* Foundation.framework in Frameworks */,
+				0F3B99CD1612F6D60055315E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F3B99B91612F6D60055315E = {
+			isa = PBXGroup;
+			children = (
+				0F3B99CE1612F6D60055315E /* Nihondeng */,
+				0F3B99C71612F6D60055315E /* Frameworks */,
+				0F3B99C51612F6D60055315E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F3B99C51612F6D60055315E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F3B99C41612F6D60055315E /* Nihondeng.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F3B99C71612F6D60055315E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F3B99C81612F6D60055315E /* UIKit.framework */,
+				0F3B99CA1612F6D60055315E /* Foundation.framework */,
+				0F3B99CC1612F6D60055315E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F3B99CE1612F6D60055315E /* Nihondeng */ = {
+			isa = PBXGroup;
+			children = (
+				0F3B99D71612F6D60055315E /* lianxiAppDelegate.h */,
+				0F3B99D81612F6D60055315E /* lianxiAppDelegate.m */,
+				0F3B99DA1612F6D60055315E /* lianxiViewController.h */,
+				0F3B99DB1612F6D60055315E /* lianxiViewController.m */,
+				0F3B99DD1612F6D60055315E /* lianxiViewController.xib */,
+				0F3B99CF1612F6D60055315E /* Supporting Files */,
+			);
+			path = Nihondeng;
+			sourceTree = "<group>";
+		};
+		0F3B99CF1612F6D60055315E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F3B99D01612F6D60055315E /* Nihondeng-Info.plist */,
+				0F3B99D11612F6D60055315E /* InfoPlist.strings */,
+				0F3B99D41612F6D60055315E /* main.m */,
+				0F3B99D61612F6D60055315E /* Nihondeng-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F3B99C31612F6D60055315E /* Nihondeng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3B99E21612F6D60055315E /* Build configuration list for PBXNativeTarget "Nihondeng" */;
+			buildPhases = (
+				0F3B99C01612F6D60055315E /* Sources */,
+				0F3B99C11612F6D60055315E /* Frameworks */,
+				0F3B99C21612F6D60055315E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nihondeng;
+			productName = Nihondeng;
+			productReference = 0F3B99C41612F6D60055315E /* Nihondeng.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F3B99BB1612F6D60055315E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0F3B99BE1612F6D60055315E /* Build configuration list for PBXProject "Nihondeng" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F3B99B91612F6D60055315E;
+			productRefGroup = 0F3B99C51612F6D60055315E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F3B99C31612F6D60055315E /* Nihondeng */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F3B99C21612F6D60055315E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3B99D31612F6D60055315E /* InfoPlist.strings in Resources */,
+				0F3B99DF1612F6D60055315E /* lianxiViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F3B99C01612F6D60055315E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3B99D51612F6D60055315E /* main.m in Sources */,
+				0F3B99D91612F6D60055315E /* lianxiAppDelegate.m in Sources */,
+				0F3B99DC1612F6D60055315E /* lianxiViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F3B99D11612F6D60055315E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F3B99D21612F6D60055315E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F3B99DD1612F6D60055315E /* lianxiViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F3B99DE1612F6D60055315E /* en */,
+			);
+			name = lianxiViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F3B99E01612F6D60055315E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F3B99E11612F6D60055315E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F3B99E31612F6D60055315E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nihondeng/Nihondeng-Prefix.pch";
+				INFOPLIST_FILE = "Nihondeng/Nihondeng-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F3B99E41612F6D60055315E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nihondeng/Nihondeng-Prefix.pch";
+				INFOPLIST_FILE = "Nihondeng/Nihondeng-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F3B99BE1612F6D60055315E /* Build configuration list for PBXProject "Nihondeng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3B99E01612F6D60055315E /* Debug */,
+				0F3B99E11612F6D60055315E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F3B99E21612F6D60055315E /* Build configuration list for PBXNativeTarget "Nihondeng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3B99E31612F6D60055315E /* Debug */,
+				0F3B99E41612F6D60055315E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F3B99BB1612F6D60055315E /* Project object */;
+}
