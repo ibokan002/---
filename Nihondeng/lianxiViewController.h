@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface lianxiViewController : UIViewController
-
+{
+    NSTimer *timer;
+}
+-(void)addTimer;
+@property(retain,nonatomic)UIView *view1;
 @end

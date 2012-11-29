@@ -15,6 +15,7 @@
 		0F3B99D91612F6D60055315E /* lianxiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B99D81612F6D60055315E /* lianxiAppDelegate.m */; };
 		0F3B99DC1612F6D60055315E /* lianxiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B99DB1612F6D60055315E /* lianxiViewController.m */; };
 		0F3B99DF1612F6D60055315E /* lianxiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3B99DD1612F6D60055315E /* lianxiViewController.xib */; };
+		0F85967F16140CAA002E9737 /* UIColor_Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F85967E16140CAA002E9737 /* UIColor_Random.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		0F3B99C81612F6D60055315E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0F3B99CA1612F6D60055315E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0F3B99CC1612F6D60055315E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0F3B99D01612F6D60055315E /* Nihondeng-Info.plist */ = {isa = PBXFileReference; path = "Nihondeng-Info.plist"; sourceTree = "<group>"; };
+		0F3B99D01612F6D60055315E /* Nihondeng-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nihondeng-Info.plist"; sourceTree = "<group>"; };
 		0F3B99D21612F6D60055315E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F3B99D41612F6D60055315E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0F3B99D61612F6D60055315E /* Nihondeng-Prefix.pch */ = {isa = PBXFileReference; path = "Nihondeng-Prefix.pch"; sourceTree = "<group>"; };
-		0F3B99D71612F6D60055315E /* lianxiAppDelegate.h */ = {isa = PBXFileReference; path = lianxiAppDelegate.h; sourceTree = "<group>"; };
+		0F3B99D61612F6D60055315E /* Nihondeng-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nihondeng-Prefix.pch"; sourceTree = "<group>"; };
+		0F3B99D71612F6D60055315E /* lianxiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lianxiAppDelegate.h; sourceTree = "<group>"; };
 		0F3B99D81612F6D60055315E /* lianxiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lianxiAppDelegate.m; sourceTree = "<group>"; };
-		0F3B99DA1612F6D60055315E /* lianxiViewController.h */ = {isa = PBXFileReference; path = lianxiViewController.h; sourceTree = "<group>"; };
+		0F3B99DA1612F6D60055315E /* lianxiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lianxiViewController.h; sourceTree = "<group>"; };
 		0F3B99DB1612F6D60055315E /* lianxiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lianxiViewController.m; sourceTree = "<group>"; };
 		0F3B99DE1612F6D60055315E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/lianxiViewController.xib; sourceTree = "<group>"; };
+		0F85967C16140CA0002E9737 /* UIColor_Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColor_Random.h; sourceTree = "<group>"; };
+		0F85967E16140CAA002E9737 /* UIColor_Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColor_Random.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				0F3B99D81612F6D60055315E /* lianxiAppDelegate.m */,
 				0F3B99DA1612F6D60055315E /* lianxiViewController.h */,
 				0F3B99DB1612F6D60055315E /* lianxiViewController.m */,
+				0F85967C16140CA0002E9737 /* UIColor_Random.h */,
+				0F85967E16140CAA002E9737 /* UIColor_Random.m */,
 				0F3B99DD1612F6D60055315E /* lianxiViewController.xib */,
 				0F3B99CF1612F6D60055315E /* Supporting Files */,
 			);
@@ -163,6 +168,7 @@
 				0F3B99D51612F6D60055315E /* main.m in Sources */,
 				0F3B99D91612F6D60055315E /* lianxiAppDelegate.m in Sources */,
 				0F3B99DC1612F6D60055315E /* lianxiViewController.m in Sources */,
+				0F85967F16140CAA002E9737 /* UIColor_Random.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +278,7 @@
 				0F3B99E41612F6D60055315E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
